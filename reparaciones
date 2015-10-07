@@ -1,0 +1,58 @@
+#!/bin/bash
+# Made by Sinfallas <sinfallas@yahoo.com>
+# Licence: GPL-2
+if [[ $USER != root ]]; then
+	echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
+	exit 1
+fi
+trap "rm -f /run/reparaciones.pid; exit" INT TERM EXIT
+echo $BASHPID > /run/reparaciones.pid
+case "$1" in
+	firewall)
+		iptables -F
+		iptables -X
+		iptables -Z
+		iptables -t nat -F
+		iptables -t nat -X
+		iptables -t mangle -F
+		iptables -t mangle -X
+		iptables -P INPUT ACCEPT
+		iptables -P FORWARD ACCEPT
+		iptables -P OUTPUT ACCEPT
+		;;
+
+	limpieza)
+		history -c
+		#rm -rf /var/cache/*
+		rm -rf /var/cache/polipo/*
+		rm -rf /root/.local/share/Trash/*
+		rm -rf /home/*/.local/share/Trash/*
+		rm -rf /home/*/.cache/*
+		apt-get clean
+		;;
+
+	iceweasel)
+		rm -rf /home/*/.mozilla/*
+		;;
+
+	paquetes)
+		rm -f /var/lib/dpkg/lock
+		rm -f /var/cache/apt/archives/lock
+		apt -q update
+		# reparar llaves gpg
+		# reparar repositorios
+		apt-get -y --force-yes install
+		apt-get -y autoremove
+		apt -y purge $(deborphan)
+		dpkg --configure -a
+		#dpkg-reconfigure -a
+		;;
+
+	*)
+            	echo "USO: $0 {firewall|limpieza|iceweasel|paquetes}"
+		;;
+
+esac
+rm -f /run/reparaciones.pid
+trap - INT TERM EXIT
+exit 0
