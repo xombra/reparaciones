@@ -30,3 +30,11 @@ reboot
 
 rm -rf .gnome2 .gconf .gconfd .metacity
 reboot
+
+* Reparar MATE
+
+gconftool-2 –shutdown 
+rm -rf ~/.gconf/apps/panel 
+pkill mate-panel
+reboot
+
