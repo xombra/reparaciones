@@ -26,6 +26,10 @@ gsettings reset-recursively org.cinnamon
 cinnamon --replace
 reboot
 
+* Restaurar Panel en Cinnamon
+
+cinnamon r 
+
 * Reparar GNOME
 
 rm -rf .gnome2 .gconf .gconfd .metacity
