@@ -23,6 +23,7 @@ reboot
 * Reparar Cinnamon y colocar opciones por Default
 
 gsettings reset-recursively org.cinnamon
+cinnamon --replace
 reboot
 
 * Reparar GNOME
