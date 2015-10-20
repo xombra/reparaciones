@@ -1,4 +1,16 @@
-commit 8ff04d3e065a252f51ba95b187276945061a3ca2 (HEAD, origin/master, origin/HEAD, master)
+commit e9b49468d2114c20f26db2dac7507f775d1d9214 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 20 19:18:13 2015 -0430
+
+    * se agrega la correcciones para mate
+
+commit 25c79dd6be2c04a99e42928cfed019a9881ee67d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 20 19:16:35 2015 -0430
+
+    * changelog
+
+commit 8ff04d3e065a252f51ba95b187276945061a3ca2
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Oct 20 19:16:08 2015 -0430
 
