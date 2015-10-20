@@ -1,4 +1,17 @@
-commit 2a73d50fba976b1c9181ba14e3eae80489895b20 (HEAD, origin/master, origin/HEAD, master)
+commit 50e5fb71a537cb13a597335feb8155d837d1e6e5 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 20 19:24:17 2015 -0430
+
+    * se agregan las correcciones de lxde
+    * correcciones varias
+
+commit 04780a6b0bc1a5a15268a08336a13d78349cb0df
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 20 19:20:51 2015 -0430
+
+    * changelog
+
+commit 2a73d50fba976b1c9181ba14e3eae80489895b20
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Oct 20 19:20:16 2015 -0430
 
