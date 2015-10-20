@@ -1,4 +1,16 @@
-commit 331be1a331b3a92ec6a9d65dd739e6ae91f58119 (HEAD, origin/master, origin/HEAD, master)
+commit 8ff04d3e065a252f51ba95b187276945061a3ca2 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 20 19:16:08 2015 -0430
+
+    * se agrega la reparacion de xfce
+
+commit 2341b5e982175b67e0e5ca9614d0598dcda5a1c5
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 19 20:05:14 2015 -0430
+
+    * changelog
+
+commit 331be1a331b3a92ec6a9d65dd739e6ae91f58119
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Oct 19 20:04:59 2015 -0430
 
