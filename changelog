@@ -1,4 +1,16 @@
-commit e9b49468d2114c20f26db2dac7507f775d1d9214 (HEAD, origin/master, origin/HEAD, master)
+commit 2a73d50fba976b1c9181ba14e3eae80489895b20 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 20 19:20:16 2015 -0430
+
+    * se agregan las correcciones para cinnamon
+
+commit eadeead3ddbd2a9c9d7990b64993f99b2c96c467
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 20 19:18:35 2015 -0430
+
+    * changelog
+
+commit e9b49468d2114c20f26db2dac7507f775d1d9214
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Oct 20 19:18:13 2015 -0430
 
