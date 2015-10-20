@@ -57,8 +57,14 @@ case "$1" in
 		xfce4-panel
 		reboot
 
+	mate)
+		gconftool-2 –shutdown 
+		pkill mate-panel
+		rm -rf ~/.gconf/apps/panel 
+		reboot
+
 	*)
-            	echo "USO: $0 {firewall|limpieza|iceweasel|paquetes|xfce}"
+            	echo "USO: $0 {firewall|limpieza|iceweasel|paquetes|xfce|mate}"
 		;;
 
 esac
