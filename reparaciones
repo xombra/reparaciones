@@ -49,8 +49,16 @@ case "$1" in
 		#dpkg-reconfigure -a
 		;;
 
+	xfce)
+		xfce4-panel --quit
+		pkill xfconfd
+		rm -rf ~/.cache/sessions
+		rm -rf ~/.config/xfce4 
+		xfce4-panel
+		reboot
+
 	*)
-            	echo "USO: $0 {firewall|limpieza|iceweasel|paquetes}"
+            	echo "USO: $0 {firewall|limpieza|iceweasel|paquetes|xfce}"
 		;;
 
 esac

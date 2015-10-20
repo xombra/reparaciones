@@ -3,16 +3,6 @@
 lxpanelctl restart 
 
 
-* Corregir Session XFCE 
-
-xfce4-panel --quit
-pkill xfconfd
-rm -rf ~/.cache/sessions
-rm -rf ~/.config/xfce4 
-xfce4-panel
-reboot
-
-
 * Reparar Cinnamon y colocar opciones por Default
 
 gsettings reset-recursively org.cinnamon
