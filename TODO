@@ -2,15 +2,6 @@
 
 lxpanelctl restart 
 
-
-* Reparar Cinnamon y colocar opciones por Default
-
-gsettings reset-recursively org.cinnamon
-cinnamon --replace
-cinnamon r 
-reboot
-
-
 * Reparar GNOME
 
 rm -rf .gnome2 .gconf .gconfd .metacity

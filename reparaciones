@@ -63,8 +63,15 @@ case "$1" in
 		rm -rf ~/.gconf/apps/panel 
 		reboot
 
+
+	cinnamon)
+		gsettings reset-recursively org.cinnamon
+		cinnamon --replace
+		cinnamon r
+		reboot
+
 	*)
-            	echo "USO: $0 {firewall|limpieza|iceweasel|paquetes|xfce|mate}"
+            	echo "USO: $0 {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon}"
 		;;
 
 esac
