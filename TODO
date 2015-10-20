@@ -1,8 +1,0 @@
-* Corregir Panel LXDE
-
-lxpanelctl restart 
-
-* Reparar GNOME
-
-rm -rf .gnome2 .gconf .gconfd .metacity
-reboot
