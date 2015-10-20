@@ -5,17 +5,10 @@ lxpanelctl restart
 
 * Corregir Session XFCE 
 
-rm -Rf /home/usuario/.cache/sessions
-rm -Rf /home/usuario/.config/xfce4 
-reboot
-
-
-* Reparar Panel XFCE 
-
 xfce4-panel --quit
 pkill xfconfd
-rm -rf ~/.config/xfce4/panel
-rm -rf ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+rm -rf ~/.cache/sessions
+rm -rf ~/.config/xfce4 
 xfce4-panel
 reboot
 
@@ -24,16 +17,15 @@ reboot
 
 gsettings reset-recursively org.cinnamon
 cinnamon --replace
+cinnamon r 
 reboot
 
-* Restaurar Panel en Cinnamon
-
-cinnamon r 
 
 * Reparar GNOME
 
 rm -rf .gnome2 .gconf .gconfd .metacity
 reboot
+
 
 * Reparar MATE
 
@@ -41,4 +33,3 @@ gconftool-2 –shutdown
 rm -rf ~/.gconf/apps/panel 
 pkill mate-panel
 reboot
-
