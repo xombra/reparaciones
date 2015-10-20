@@ -1,4 +1,58 @@
-commit a42edfef34853f37d849cad68c329cdd505477d3 (HEAD, origin/master, origin/HEAD, master)
+commit 603e56793b307af57cdf4affc46b0f7dccbd3f72 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 19 20:02:32 2015 -0430
+
+    * se actualiza TODO para fusionar correcciones
+
+commit 89ab0a3db4f6abc18f664250c190d558c0c35620
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Oct 18 23:56:40 2015 -0430
+
+    optimizaciones
+
+commit 4c7e01ab7488df2455ebd9ca1afb95660276b3ba
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 13 22:26:51 2015 -0430
+
+    travis
+
+commit 95cff23fbea7da08455b7ea7c957cef2595f87d4
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Tue Oct 13 10:35:09 2015 -0430
+
+    Update TODO
+
+commit bcbbacdf55ffda6a63961b5cd90c62a688d2e191
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Tue Oct 13 10:24:19 2015 -0430
+
+    Update TODO
+
+commit 5bfe04abc4363a7c42de366af9d3da2a71167a08
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Tue Oct 13 10:02:08 2015 -0430
+
+    Update TODO
+
+commit ebb6fd010a208a2e2c2112b40f67c9fbbc79cb0e
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Tue Oct 13 09:51:13 2015 -0430
+
+    Update TODO
+
+commit 46d2ef5901407b4767ac5a6a7dc9de45f44b5d4d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 12 13:02:44 2015 -0430
+
+    * se crea el archivo TODO para colocar alli lo que falta por hacer
+
+commit 66ed98bb38b49aa1a60361bcc6b6f985a98f9309 (tag: v0.1)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 6 20:58:27 2015 -0430
+
+    * changelog
+
+commit a42edfef34853f37d849cad68c329cdd505477d3
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Oct 6 20:58:10 2015 -0430
 
