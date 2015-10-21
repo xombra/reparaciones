@@ -56,21 +56,25 @@ case "$1" in
 		rm -rf ~/.config/xfce4
 		xfce4-panel
 		reboot
+		;;
 
 	mate)
 		gconftool-2 –shutdown
 		pkill mate-panel
 		rm -rf ~/.gconf/apps/panel
 		reboot
+		;;
 
 	cinnamon)
 		gsettings reset-recursively org.cinnamon
 		cinnamon --replace
 		cinnamon r
 		reboot
+		;;
 
 	lxde)
 		lxpanelctl restart
+		;;
 
 	*)
             	echo "USO: $0 {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon|lxde}"
