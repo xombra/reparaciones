@@ -40,8 +40,6 @@ case "$1" in
 		rm -f /var/lib/dpkg/lock
 		rm -f /var/cache/apt/archives/lock
 		apt -q update
-		# reparar llaves gpg
-		# reparar repositorios
 		apt-get -y --force-yes install
 		apt-get -y autoremove
 		apt -y purge $(deborphan)
