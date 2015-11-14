@@ -1,2 +1,6 @@
 # reparar llaves gpg
 # reparar repositorios
+
+# Reparar OpenBox
+openbox --reconfigure
+openbox --restart
