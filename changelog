@@ -1,10 +1,30 @@
-commit add866f5142f0acb7260201ef155fd8c50805ebb (HEAD, origin/master, origin/HEAD, master)
+commit 9ddcf1a7bc5a4f02bbadebce5cd42143cc19293f (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Dec 6 18:01:28 2015 -0430
+
+    boinc-preinstaller
+
+commit f827a56c3310a83d9184df4d2f469a540ab55345
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Fri Nov 13 23:15:34 2015 -0430
+
+    Update TODO
+    
+    Agrgada opcion de restaurar Openbox
+
+commit b019cebfd721bcbe43395ea7a1be388d3f6a51a8
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Nov 1 14:54:02 2015 -0430
+
+    * changelog
+
+commit add866f5142f0acb7260201ef155fd8c50805ebb
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Nov 1 14:53:50 2015 -0430
 
     * zenodo
 
-commit f129e193e644aa201f0adb95516d8bbebb3dd8d1
+commit f129e193e644aa201f0adb95516d8bbebb3dd8d1 (tag: v0.1.1)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Oct 20 20:07:02 2015 -0430
 
