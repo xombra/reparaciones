@@ -1,6 +1,1 @@
-# reparar llaves gpg
-# reparar repositorios
-
-# Reparar OpenBox
-openbox --reconfigure
-openbox --restart
+# correcion de "llaves" key de repos
