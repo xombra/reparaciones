@@ -73,9 +73,14 @@ case "$1" in
 	lxde)
 		lxpanelctl restart
 		;;
+		
+	openbox)
+		openbox --reconfigure
+		openbox --restart
+		;;
 
 	*)
-            	echo "USO: $(basename $0) {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon|lxde}"
+            	echo "USO: $(basename $0) {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon|lxde|openbox}"
 		;;
 
 esac
