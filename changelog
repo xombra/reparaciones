@@ -1,4 +1,28 @@
-commit e99044d7af3da9b4a7bb8e10eb2e65699ecb180c (HEAD, origin/master, origin/HEAD, master)
+commit 46a30821b35e9cb0c8f99df5be93455bc83b2e4e (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Feb 1 20:43:07 2016 -0430
+
+    * se actualiza el archivo todo
+
+commit f883f14ded4117c89f01bb4b4a1f3ba83165c052
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Mon Feb 1 14:24:53 2016 -0430
+
+    eliminadas ya lista y agrgada nueva opcion pendiente key de repo
+
+commit d935c85c8dfefcc0cab3dd2771bd677b5abfe41d
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Mon Feb 1 14:23:38 2016 -0430
+
+    agregada la opcion de reparacion de openbox
+
+commit 83588f3cc091ddc3e00c8f79da3e1dcd9ea92c4c
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jan 20 19:20:52 2016 -0430
+
+    * changelog
+
+commit e99044d7af3da9b4a7bb8e10eb2e65699ecb180c
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jan 20 19:20:24 2016 -0430
 
