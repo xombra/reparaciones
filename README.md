@@ -5,3 +5,9 @@
 [![Build Status](https://travis-ci.org/xanadu-linux/reparaciones.svg?branch=master)](https://travis-ci.org/xanadu-linux/reparaciones)
 
 Script to repair common problems on Debian and derivatives
+
+Uso:
+
+```bash
+reparaciones {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon|lxde|openbox}
+```
