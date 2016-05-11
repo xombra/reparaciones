@@ -78,9 +78,15 @@ case "$1" in
 		openbox --reconfigure
 		openbox --restart
 		;;
+		
+	gnome)
+		gconftool-2 --recursive-unset /apps/panel
+		rm -rf ~/.gconf/apps/panel
+		pkill gnome-panel
+		;;
 
 	*)
-            	echo "USO: $(basename $0) {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon|lxde|openbox}"
+            	echo "USO: $(basename $0) {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon|lxde|openbox|gnome}"
 		;;
 
 esac
