@@ -30,6 +30,8 @@ case "$1" in
 		rm -rf /home/*/.local/share/Trash/*
 		rm -rf /home/*/.cache/*
 		apt-get clean
+		apt-get autoclean
+		apt-get autoremove
 		;;
 
 	iceweasel)
@@ -84,9 +86,15 @@ case "$1" in
 		rm -rf ~/.gconf/apps/panel
 		pkill gnome-panel
 		;;
+	
+	reinstall)	
+		# reinstalar TODO y reconfigura automáticamente
+		# Esto puede llevar tiempo. (usar con precaución)
+		dpkg-reconfigure -phigh -a 
+		;;
 
 	*)
-            	echo "USO: $(basename $0) {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon|lxde|openbox|gnome}"
+            	echo "USO: $(basename $0) {cinnamon|iceweasel|firewall|gnome|limpieza|lxde|mate|openbox|paquetes|reinstall|xfce}"
 		;;
 
 esac
