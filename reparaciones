@@ -76,6 +76,11 @@ case "$1" in
 		lxpanelctl restart
 		;;
 		
+	locales)	
+		apt-get install --reinstall locales
+		dpkg-reconfigure locales
+		;;
+		
 	openbox)
 		openbox --reconfigure
 		openbox --restart
@@ -94,7 +99,7 @@ case "$1" in
 		;;
 
 	*)
-            	echo "USO: $(basename $0) {cinnamon|iceweasel|firewall|gnome|limpieza|lxde|mate|openbox|paquetes|reinstall|xfce}"
+            	echo "USO: $(basename $0) {cinnamon|iceweasel|firewall|gnome|limpieza|locales|lxde|mate|openbox|paquetes|reinstall|xfce}"
 		;;
 
 esac
