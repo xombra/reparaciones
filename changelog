@@ -1,4 +1,16 @@
-commit 7ab7949088b9ea464123a2e60ab8edfcbc0eeb4f (HEAD, origin/master, origin/HEAD, master)
+commit f2f03479d64ba677605069c89289c93ea681f729 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 19:34:08 2016 -0400
+
+    * se sustituye la palabra iceweasel por firefox
+
+commit 2589acf0a564d773c7b96ed94ae01e29dac10e73
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 19:33:02 2016 -0400
+
+    * changelog
+
+commit 7ab7949088b9ea464123a2e60ab8edfcbc0eeb4f
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Jun 13 19:32:47 2016 -0400
 
