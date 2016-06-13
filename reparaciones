@@ -34,7 +34,7 @@ case "$1" in
 		apt-get autoremove
 		;;
 
-	iceweasel)
+	firefox)
 		rm -rf /home/*/.mozilla/*
 		;;
 
@@ -97,7 +97,7 @@ case "$1" in
 		;;
 
 	*)
-            	echo "USO: $(basename $0) {cinnamon|iceweasel|firewall|gnome|limpieza|locales|lxde|mate|openbox|paquetes|reinstall|xfce}"
+            	echo "USO: $(basename $0) {cinnamon|firefox|firewall|gnome|limpieza|locales|lxde|mate|openbox|paquetes|reinstall|xfce}"
 		;;
 
 esac
