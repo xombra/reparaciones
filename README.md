@@ -9,5 +9,5 @@ Script para reparar los problemas comunes en Debian y derivados
 Uso:
 
 ```bash
-reparaciones {firewall|limpieza|iceweasel|paquetes|xfce|mate|cinnamon|lxde|openbox}
+reparaciones {cinnamon|firefox|firewall|gnome|limpieza|locales|lxde|mate|openbox|paquetes|reinstall|xfce}
 ```
