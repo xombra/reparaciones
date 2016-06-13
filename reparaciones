@@ -93,8 +93,6 @@ case "$1" in
 		;;
 	
 	reinstall)	
-		# reinstalar TODO y reconfigura automáticamente
-		# Esto puede llevar tiempo. (usar con precaución)
 		dpkg-reconfigure -phigh -a 
 		;;
 
