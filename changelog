@@ -1,4 +1,42 @@
-commit 81e877567e59e88073a911e017dfce056d51dfe7 (HEAD, origin/master, origin/HEAD, master)
+commit 7ab7949088b9ea464123a2e60ab8edfcbc0eeb4f (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 19:32:47 2016 -0400
+
+    * se eliminan comentarios
+
+commit fe20389c72ca7a20c1e24ef39a25ad606044529e
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Fri Jun 10 20:24:52 2016 -0430
+
+    Reparacion de locales
+
+commit 9eee6ae8400fbefd04190b9ad14b4a8c3b5afe92
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Fri Jun 10 11:32:04 2016 -0430
+
+    reinstalar TODO y reconfigura automáticamente
+    
+    reordenado opciones
+
+commit c1a7e322f50d53cd69374d4acfc15a68f1109f85
+Author: Hector A. Mantellini <xombra@users.noreply.github.com>
+Date:   Wed May 11 10:38:21 2016 -0430
+
+    Agregado la opción para reparar el panel de gnome
+
+commit e321b612bb765493dc8ebc64dea26ba6a54276cd
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Apr 19 20:20:47 2016 -0430
+
+    Update README.md
+
+commit 62378e017d3bfb3cbdf15cb456d37d0cd406c86c
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Apr 19 19:52:15 2016 -0430
+
+    * changelog
+
+commit 81e877567e59e88073a911e017dfce056d51dfe7
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Apr 19 19:51:35 2016 -0430
 
