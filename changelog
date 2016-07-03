@@ -1,4 +1,16 @@
-commit 64b215927fde16ba2ef5627305ae08ff98b6e441 (HEAD, origin/master, origin/HEAD, master)
+commit f4b8151e242537d9acae12f1e69ad482fb6f2752 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jul 2 21:02:40 2016 -0400
+
+    * se eliminan los comentarios
+
+commit 74927e01c5f331e48a7f37ca9a8cdef0e5033f11
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jul 2 20:59:51 2016 -0400
+
+    * changelog
+
+commit 64b215927fde16ba2ef5627305ae08ff98b6e441
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Jul 2 20:59:31 2016 -0400
 
