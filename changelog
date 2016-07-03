@@ -1,4 +1,16 @@
-commit 8210f6b116b212847c0e2d2c4ac22ed1b5c47269 (HEAD, origin/master, origin/HEAD, master)
+commit 64b215927fde16ba2ef5627305ae08ff98b6e441 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jul 2 20:59:31 2016 -0400
+
+    * se eliminan los reboot innecesarios
+
+commit 317fd0476850d2fe827d5e8339fc4ac6c7b998c4
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 19:37:11 2016 -0400
+
+    * changelog
+
+commit 8210f6b116b212847c0e2d2c4ac22ed1b5c47269
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Jun 13 19:37:00 2016 -0400
 
