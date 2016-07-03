@@ -31,7 +31,7 @@ case "$1" in
 		rm -rf /home/*/.cache/*
 		apt-get clean
 		apt-get autoclean
-		apt-get autoremove
+		apt-get -y autoremove
 		;;
 
 	firefox)
@@ -42,7 +42,7 @@ case "$1" in
 		rm -f /var/lib/dpkg/lock
 		rm -f /var/cache/apt/archives/lock
 		apt -q update
-		apt-get -y --force-yes install
+		apt-get -y install
 		apt-get -y autoremove
 		apt -y purge $(deborphan)
 		dpkg --configure -a
@@ -55,7 +55,6 @@ case "$1" in
 		rm -rf ~/.cache/sessions
 		rm -rf ~/.config/xfce4
 		xfce4-panel
-		reboot
 		;;
 
 	mate)
@@ -69,7 +68,6 @@ case "$1" in
 		gsettings reset-recursively org.cinnamon
 		cinnamon --replace
 		cinnamon r
-		reboot
 		;;
 
 	lxde)
