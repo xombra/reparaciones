@@ -70,6 +70,7 @@ case "$1" in
  		;;
 
 	lxde)
+		rm -r ~/.config/lxpanel
 		lxpanelctl restart
 		;;
 		
